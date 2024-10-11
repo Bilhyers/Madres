@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Opportunity 3D</title>
+    <link rel="icon" href="/imagenes/Logo22.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/imagenes/Logo.png" alt="logo-principal">
+            <h1>Second Opportunity 3D</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#carrito" id="carrito-icon"><i class="fas fa-shopping-cart"></i> <span id="carrito-count">0</span></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="presentacion">
+            <img src="/imagenes/banner.png" alt="presentacion">
+        </div>
+        <section id="inicio" class="container">
+            
+            <h2>Bienvenido a Second Opportunity 3D</h2>
+            <p><b>Descubre nuestra amplia gama de productos de alta calidad.</b></p>
+                <p><b>si quieres saber mas sobre nosotros dirigirse a</b> <a href="sobre nosotros/sobre-nosotros.html" class="button">sobre nosotros</a></p>
+            
+
+            <div class="banner-dia-madre">
+                <img src="/imagenes/mes_de_la_madre.png" alt="Día de la Madre">
+                <div class="banner-texto">
+                    <h2>¡Especial Día de la Madre!</h2>
+                    <p><b>Regalos únicos para mamá: llaveros, collares, aros y más.</b></p>
+                    <p><b>Dirigirse a la seccion de productos</b></p>
+                </div>
+            </div>
+            
+        </section>
+
+        
+        
+        
+        <section id="productos" class="container">
+            <h2>Nuestros Productos</h2>
+            <div id="lista-productos" class="grid"></div>
+        </section>
+
+        <section id="carrito" class="container">
+            <h2>Carrito de Compras</h2>
+            <div id="items-carrito"></div>
+            <p>Total: $<span id="carrito-total">0</span></p>
+            <button id="btn-whatsapp" class="btn">Realizar Pedido por WhatsApp</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Second Opportunity 3D. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
