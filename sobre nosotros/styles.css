@@ -19,6 +19,7 @@ body {
 
 .container img{
     width: 70px;
+    margin-right: 10px;
 }
 
 header {
@@ -28,6 +29,9 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    display: flex;
+    justify-content: center; /* Centra la imagen y el texto horizontalmente */
+    align-items: center; 
 }
 
 header .container {
@@ -97,6 +101,11 @@ nav ul li a {
 
 main {
     padding: 2rem 0;
+}
+
+h1{
+    text-align: center;
+    color: #000000;
 }
 
 .presentacion {
@@ -191,8 +200,6 @@ footer {
     color: #000000;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
